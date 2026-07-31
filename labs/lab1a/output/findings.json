@@ -1,0 +1,12 @@
+[
+  {
+    "finding": "Possible network service discovery",
+    "source_ip": "172.18.0.7",
+    "mitre_technique": "T1046",
+    "mitre_name": "Network Service Discovery",
+    "tactic": "Discovery",
+    "severity": "Medium",
+    "evidence": "2026-07-11T09:04:20 INFO Network scan detected from 172.18.0.7 against ports 22,80,443,3306",
+    "line_number": 4
+  }
+]

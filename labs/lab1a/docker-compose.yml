@@ -1,0 +1,7 @@
+services:
+  detector:
+    build: .
+    container_name: mitre-log-detector
+    volumes:
+      - ./logs:/data:ro
+      - ./output:/output
