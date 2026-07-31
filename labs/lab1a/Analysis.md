@@ -1,1 +1,31 @@
-## Analysis
+Student name: Itay Fischer
+Student ID: 323103317
+Date: 31.07.26
+
+##Finding 1
+---------
+Activity:
+Source IP:
+Evidence:
+MITRE ATT&CK technique:
+Tactic:
+Why is this finding suspicious?
+
+Finding 2
+---------
+Activity:
+Source IP:
+Evidence:
+MITRE ATT&CK technique:
+Tactic:
+Why is this finding suspicious?
+
+Containerization
+----------------
+Explain briefly why Docker was used even though the laboratory did not use cloud services:
+
+Reflection
+----------
+1. Why is a detection finding not proof of an attack?
+2. What additional logs would help confirm the findings?
+3. What could cause a false positive?
