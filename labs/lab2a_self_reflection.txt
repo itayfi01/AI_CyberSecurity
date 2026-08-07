@@ -1,0 +1,93 @@
+
+Field	Value
+Alert ID	alert-0-50
+Correlation ID	8eb9934c-dbd8-4b92-8401-47169535c856
+Scenario	failed login attempts
+Risk Score	100
+User	svc-backup
+Host	host-02
+Event Type	privilege_escalation
+
+How complete is the available evidence?
+Good
+
+How confident are you that the evidence supports the reported alert?
+High
+
+Which evidence influenced your judgement the most?
+Each evidence by itself was not enough to make the decision, but put them all together and the event look very unusual 
+
+Provider
+"high number of failed login attempts"
+"large outbound data transfer"
+"abnormally high process count"
+"login/source country is outside normal profile"
+"suspicious event type: privilege_escalation"
+"Isolation Forest marked this event as anomalous"
+"user-specific fingerprint deviation z=253.2175"
+The explanation is understandable.
+Agree
+
+The explanation clearly connects the evidence with the recommendation.
+Agree
+
+Did the explanation change your understanding of the case?
+Yes
+
+It Provided more info about the event in an easy to understand language
+Rate your confidence **after reading the explanation**.
+High
+
+Did the explanation introduce information that was not obvious from the original evidence?
+Yes
+
+Did the explanation increase your trust in the AI recommendation?
+Increased
+
+Did you independently verify the explanation against the available evidence?
+Yes
+
+The RAI assessment is easy to understand.
+Yes
+
+The governance assessment helped me understand the risks of the AI recommendation.
+Neutral 
+
+The governance assessment provided useful information that was not obvious from the detector output.
+Neutral
+
+Did the RAI assessment influence your thinking?
+No
+
+
+The Meta-AI review helped me better understand the AI investigation.
+Agree
+
+The Meta-AI review identified useful limitations of the AI recommendation.
+Neutral
+
+The Meta-AI review encouraged me to verify the available evidence.
+Neutral
+
+Overall, how useful was the Meta-AI review?
+Slightly useful
+
+Choose one action.
+Accept AI Recommendation
+
+How confident are you in your decision?
+Very high
+
+Explain why you selected your decision.
+All of the findings indicate of an unusual and suspicious activity by the "user". a lot of failed login attempts from an unusual country and the actions themselves do not track the regular routine of the user
+
+Which components influenced your decision?
+Detector Evidence
+XAI Explanation
+Responsible AI Assessment
+
+Which statement best describes how you reached your final decision?
+Multiple information sources contributed equally to my final decision.
+
+In one or two sentences, describe the most important factor that influenced your final decision.
+Each factor on its own was not enough to get to the decision, but combining the unusual country, the many failed attempts and the unusual time usage were the main factors 
